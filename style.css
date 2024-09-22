@@ -1,0 +1,6 @@
+:root { /* vai gerenciar as constantes de estilo que serão aplicadas a toda a página ou site. */
+--green: #B7CA81; /* var(--nome-da-variavel) - VAR = variável */
+--green-light: #A0D6A1;
+--pink: #D08791;
+}
+
