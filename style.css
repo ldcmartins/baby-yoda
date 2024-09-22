@@ -4,3 +4,24 @@
 --pink: #D08791;
 }
 
+html {
+    background: linear-gradient(to bottom right, #DDE8E2AA, #DDD9C5AA);
+    height: 100%;
+    display: flex;
+}
+
+.baby-yoda {
+    width: 6em;
+    height: 4em;
+    border-radius: 3em 3em 4.5em 4.5em;
+    background: var(--green);
+    position: relative;
+
+    background-image: radial-gradient(circle at 1.5em, #fff, #fff .25em, transparent .3em), radial-gradient(circle at 1em, #000, #000 .9em, transparent 1em);
+    background-position: 0.6em 0.35em, 0.7em 0.6em;
+    background-size: 2.75em 2em;
+    background-repeat: repeat-x;
+
+}
+
+background-image: radial-gradient(circle at 1.5em,)
