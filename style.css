@@ -5,7 +5,7 @@
 }
 
 html {
-    background: linear-gradient(to bottom right, #DDE8E2AA, #DDD9C5AA);
+    background: linear-gradient(to bottom right, #05853f, hsla(97, 97%, 48%, 0.788)); /* faz o background ficar em gradiente */
     height: 100%;
     display: flex;
 }
@@ -29,7 +29,7 @@ body {
     animation: eyes 2s cubic-bezier(.8, .02, .2, .96) infinite alternate;
 }
 
-@keyframes eyes {
+@keyframes eyes { /* keyframe é usado para criar animações de trnasição, movimento, cor, tamanho e outros estilos */
     to {
         background-size: 2.75em 1.5em;
     }
